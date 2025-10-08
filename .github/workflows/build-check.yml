@@ -64,4 +64,4 @@ jobs:
       kernel_version: ${{ matrix.kernel_config.kernel_version }}
       sub_level: ${{ matrix.kernel_config.sub_level }}
       os_patch_level: ${{ matrix.kernel_config.os_patch_level }}
-      build_cvd_kernel: true
+      build_cvd_kernel: false
