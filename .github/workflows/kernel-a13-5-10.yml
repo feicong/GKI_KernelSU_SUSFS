@@ -44,4 +44,4 @@ jobs:
       kernel_version: "5.10"
       sub_level: ${{ matrix.sub_level }}
       os_patch_level: ${{ matrix.os_patch_level }}
-      build_cvd_kernel: true
+      build_cvd_kernel: false
